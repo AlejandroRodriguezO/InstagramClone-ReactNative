@@ -2,6 +2,6 @@
 
 echo "Arguments for updating:"
 cd ${APPCENTER_SOURCE_DIRECTORY}
-echo "ENVIROMENT=${ENVIROMENT}" > .env
+echo "ENVIROMENT=${ENVIROMENT}"
 
 # Updating WebApiSettings
