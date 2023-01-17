@@ -1,6 +1,11 @@
 ﻿#!/bin/env bash
 
 echo "Arguments for updating:"
-echo " - ENVIRONMENT: $env:ENVIROMENT"
+echo " - ENVIRONMENT: $ENVIRONMENT"
+
+if [ "$ENVIRONMENT" == 'DEV' ];  then
+echo "DEV"
+else 
+echo "No DEV"
 
 # Updating WebApiSettings
