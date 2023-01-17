@@ -1,11 +1,7 @@
 ﻿#!/bin/env bash
 
 echo "Arguments for updating:"
-echo " - ENVIRONMENT: $ENVIRONMENT"
-
-if [ "$ENVIRONMENT" == 'DEV' ];  then
-echo "DEV"
-else 
-echo "No DEV"
+cd ${APPCENTER_SOURCE_DIRECTORY}
+echo "ENVIROMENT=${ENVIROMENT}" > .env
 
 # Updating WebApiSettings
