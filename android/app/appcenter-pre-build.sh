@@ -1,6 +1,6 @@
 ﻿#!/bin/env bash
 
 echo "Arguments for updating:"
-echo " - ENVIRONMENT: $ENVIRONMENT"
+echo " - ENVIRONMENT: $ENVIRONMENT_VARIABLE"
 
 # Updating WebApiSettings
