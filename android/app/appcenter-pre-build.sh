@@ -1,4 +1,4 @@
-﻿#!/bin/env bash
+#!/usr/bin/env bash
 
 echo "Arguments for updating:"
 cd ${APPCENTER_SOURCE_DIRECTORY}
